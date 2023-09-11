@@ -19,7 +19,7 @@ export const Post = () => {
 
     return (
         <div className="user-post">
-            {!isLoading && <Link to='skeleton-loading/'>Back</Link>}
+            {!isLoading && <Link to='/'>Back</Link>}
 
             <h2>{post.title || <Skeleton />}</h2>
             <p>{post.body || <Skeleton count={3} />}</p>

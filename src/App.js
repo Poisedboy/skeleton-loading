@@ -10,8 +10,8 @@ function App() {
       <SkeletonTheme baseColor='#313131' highlightColor='#525252'>
         <BrowserRouter>
           <Routes>
-            <Route path='skeleton-loading/' element={<Home />} />
-            <Route path='skeleton-loading/post/:userId' element={<Post />} />
+            <Route path='/' element={<Home />} />
+            <Route path='post/:userId' element={<Post />} />
           </Routes>
         </BrowserRouter>
       </SkeletonTheme>
