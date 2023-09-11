@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skeleton-loading/static/css/main.5a6fd3af.css",
+    "main.js": "/skeleton-loading/static/js/main.1e50d06c.js",
+    "index.html": "/skeleton-loading/index.html",
+    "main.5a6fd3af.css.map": "/skeleton-loading/static/css/main.5a6fd3af.css.map",
+    "main.1e50d06c.js.map": "/skeleton-loading/static/js/main.1e50d06c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a6fd3af.css",
+    "static/js/main.1e50d06c.js"
+  ]
+}
