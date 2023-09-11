@@ -4,7 +4,7 @@ export const UserCard = ({ user }) => {
     const navigate = useNavigate()
 
     return (
-        <div className="user-card" onClick={() => navigate(`/post/${user.id}`)}>
+        <div className="user-card" onClick={() => navigate(`skeleton-loading/post/${user.id}`)}>
             <img className="avatar" src="https://picsum.photos/200" alt='user' />
             <div className="info">
                 <h3>{user.name}</h3>
